@@ -1,0 +1,112 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a, nav ul li button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #023e8a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul li button:hover, nav ul li a:hover {
+    background: #0096c7;
+}
+
+#produtos {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d62828;
+}
+
+.desconto {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.avaliacao {
+    color: gold;
+    font-size: 18px;
+}
+
+.produto button {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produto button:hover {
+    background-color: #0096c7;
+}
+
+footer {
+    text-align: center;
+    background: #023e8a;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
