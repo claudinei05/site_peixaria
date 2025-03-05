@@ -40,48 +40,19 @@ body {
   background-color: #ffffff;
   height: 60px;
   margin-bottom: 10px;
-}
-/* header {
-    background-color: #0077b6;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 20px;
-} */
-
-/* .logo img {
-    height: 50px;
-} */
-
-/* nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+  display: flex;
 }
 
-nav ul li {
-    display: inline;
-} */
-
-/* nav ul li a, nav ul li button {
-    color: white;
-    text-decoration: none;
-    padding: 8px 12px;
-    background: #023e8a;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-} */
-
-/* nav ul li button:hover, nav ul li a:hover {
-    background: #0096c7;
-} */
-
-/* #produtos {
-    text-align: center;
-    padding: 40px 20px;
-} */
+.nav-bar button{ 
+  background-color:white ;
+  color: #1a0c97;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+ 
 
 .products_container {
   display: flex;
@@ -140,3 +111,80 @@ nav ul li {
     padding: 10px;
     margin-top: 20px;
 } */
+/* header {
+    background-color: #0077b6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+} */
+
+/* .logo img {
+    height: 50px;
+} */
+
+/* nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+} */
+
+/* nav ul li a, nav ul li button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #023e8a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* nav ul li button:hover, nav ul li a:hover {
+    background: #0096c7;
+} */
+
+/* #produtos {
+    text-align: center;
+    padding: 40px 20px;
+} */
+
+.sidebar {
+  width: 200px;
+  background-color: #023e8a;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar nav ul li a,
+.sidebar nav ul li button {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar nav ul li button:hover,
+.sidebar nav ul li a:hover {
+  background-color: #005f99;
+  border-radius: 5px;
+}
