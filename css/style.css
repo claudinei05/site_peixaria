@@ -10,19 +10,21 @@ body {
   background-color: #efefef;
   color: #333;
 }
+
 .header {
   background-color: #1a0c97;
-  height: 260px;
+  height: 30vh;
   border-bottom: 8px solid #e8d80a;
 }
 
 .img-header {
   background: radial-gradient(circle, #ffff 0%, #fffec0 100%);
-  height: 200px;
+  height: 22vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  margin-bottom: 1vh;
   border-radius: 0 0 4vw 4vw;
 }
 
@@ -31,29 +33,62 @@ body {
   color: #ffffff;
   display: flex;
   align-items: center;
+
   justify-content: space-around;
+  margin-top: 0.8vh
 }
-.contato-item1 {
-  display: flex;
+.login-cadastrar button {
+  background-color:#110c72 ;
+  color: #ffffff;
+  padding: 0.6rem;
+  border: 1px solid #808080 ;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 10px;
+  align-items: center;
+}
+
+
+
+.login-cadastrar button:hover{
+  background-color: #1a0c97;
+}
+
+.login-cadastrar button img{
+  height: 15px;
+  
 }
 .nav-bar {
   background-color: #ffffff;
   height: 60px;
   margin-bottom: 10px;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-bar button{ 
   background-color:white ;
   color: #1a0c97;
   padding: 10px;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid #808080 ;
+  border-radius: 20px;
   cursor: pointer;
   margin: 10px;
 }
  
+.nav-bar button:hover {
+  background-color: #e8d80a;
+}
 
+.conteudo {
+  margin-left: 8vw;
+  margin-right: 8vw;
+  display: flex;
+}
+
+.sidebar{
+  border-right: 1px solid #808080
+}
 .products_container {
   display: flex;
   justify-content: center;
@@ -76,6 +111,9 @@ body {
 }
 
 .preco {
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
   font-size: 18px;
   font-weight: bold;
   color: #d62828;
@@ -91,8 +129,17 @@ body {
   font-size: 18px;
 }
 
+.produto hr {
+  margin: 2px auto;
+  height: 1px;
+  border: none;
+  background: linear-gradient(to right, #ffffff, #b0adad, #ffffff);
+
+}
+
 .produto button {
-  background-color: #0077b6;
+  margin: 4px;
+  background-color: green;
   color: white;
   padding: 10px;
   border: none;
@@ -101,7 +148,7 @@ body {
 }
 
 .produto button:hover {
-  background-color: #0096c7;
+  background-color: #e8d80a;
 }
 
 /* footer {
@@ -155,7 +202,7 @@ nav ul li {
 
 .sidebar {
   width: 200px;
-  background-color: #023e8a;
+  background-color: #efefef;
   padding: 20px;
   height: 100vh;
 }
@@ -172,7 +219,7 @@ nav ul li {
 .sidebar nav ul li a,
 .sidebar nav ul li button {
   display: block;
-  color: white;
+  color: black;
   text-decoration: none;
   background: none;
   border: none;
@@ -185,6 +232,7 @@ nav ul li {
 
 .sidebar nav ul li button:hover,
 .sidebar nav ul li a:hover {
-  background-color: #005f99;
+  background-color: white;
+  color: #1a0c97;
   border-radius: 5px;
 }
