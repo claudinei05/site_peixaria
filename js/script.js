@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let contadorCarrinho = 0; // Contador de itens no carrinho
 
   // Adicionar data-categoria automaticamente nos produtos
-  //pega nome dos produtos que esta no h3
+  //pega nome dos produtos que esta no
   document.querySelectorAll(".produto").forEach(produto => {
     const nomeProduto = produto.querySelector("h3").innerText;
     for (let categoria in categorias) {
